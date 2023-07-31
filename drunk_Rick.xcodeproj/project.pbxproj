@@ -16,6 +16,8 @@
 		3F020E042A73F92400A5DD03 /* drunk_RickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F020E032A73F92400A5DD03 /* drunk_RickUITests.swift */; };
 		3F020E062A73F92400A5DD03 /* drunk_RickUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F020E052A73F92400A5DD03 /* drunk_RickUITestsLaunchTests.swift */; };
 		3F020E142A73FD3900A5DD03 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3F020E132A73FD3900A5DD03 /* SnapKit */; };
+		3F020E592A76D97400A5DD03 /* presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F020E582A76D97400A5DD03 /* presenter.swift */; };
+		3F020E5B2A76D9A600A5DD03 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F020E5A2A76D9A600A5DD03 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		3F020DFF2A73F92400A5DD03 /* drunk_RickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = drunk_RickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F020E032A73F92400A5DD03 /* drunk_RickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drunk_RickUITests.swift; sourceTree = "<group>"; };
 		3F020E052A73F92400A5DD03 /* drunk_RickUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drunk_RickUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F020E582A76D97400A5DD03 /* presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = presenter.swift; sourceTree = "<group>"; };
+		3F020E5A2A76D9A600A5DD03 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		3F020DD62A73F92400A5DD03 = {
 			isa = PBXGroup;
 			children = (
+				3F020DE22A73F92400A5DD03 /* AppDelegate.swift */,
 				3F020DE12A73F92400A5DD03 /* drunk_Rick */,
 				3F020DF82A73F92400A5DD03 /* drunk_RickTests */,
 				3F020E022A73F92400A5DD03 /* drunk_RickUITests */,
@@ -99,9 +104,10 @@
 		3F020DE12A73F92400A5DD03 /* drunk_Rick */ = {
 			isa = PBXGroup;
 			children = (
-				3F020DE22A73F92400A5DD03 /* AppDelegate.swift */,
 				3F020DE42A73F92400A5DD03 /* SceneDelegate.swift */,
 				3F020DE62A73F92400A5DD03 /* ViewController.swift */,
+				3F020E5A2A76D9A600A5DD03 /* Model.swift */,
+				3F020E582A76D97400A5DD03 /* presenter.swift */,
 				3F020DEB2A73F92400A5DD03 /* Assets.xcassets */,
 				3F020DED2A73F92400A5DD03 /* LaunchScreen.storyboard */,
 				3F020DF02A73F92400A5DD03 /* Info.plist */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F020E5B2A76D9A600A5DD03 /* Model.swift in Sources */,
 				3F020DE72A73F92400A5DD03 /* ViewController.swift in Sources */,
 				3F020DE32A73F92400A5DD03 /* AppDelegate.swift in Sources */,
+				3F020E592A76D97400A5DD03 /* presenter.swift in Sources */,
 				3F020DE52A73F92400A5DD03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
